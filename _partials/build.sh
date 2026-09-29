@@ -20,7 +20,7 @@ sed -i \
   "$tmp"
 
 # set matching nav key to "active", clear all others
-for key in HOME PF CERT BLOG FAQ ABOUT; do
+for key in HOME PF SME VENTURE CERT BLOG FAQ ABOUT; do
   if [ "$key" = "$ACTIVE" ]; then
     sed -i "s/__ACTIVE_${key}__/active/g" "$tmp"
   else
