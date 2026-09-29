@@ -214,9 +214,9 @@ input, textarea, select { font-family: inherit; }
 .nav-link {
   display: flex;
   align-items: center;
-  gap: 4px;
-  padding: 14px 10px;
-  font-size: 14.5px;
+  gap: 3px;
+  padding: 14px 8px;
+  font-size: 13.5px;
   font-weight: 600;
   color: var(--ink-700);
   border-radius: 8px;
@@ -1097,9 +1097,11 @@ textarea.form-control { resize: vertical; min-height: 110px; }
   .topic-grid { grid-template-columns: repeat(3, 1fr); }
   .footer-top { grid-template-columns: 1.2fr 1fr 1fr; }
 }
-@media (max-width: 900px) {
+@media (max-width: 1220px) {
   .main-nav, .header-tel { display: none; }
   .nav-toggle { display: flex; }
+}
+@media (max-width: 900px) {
   .grid-3, .grid-2, .pain-grid, .persona-grid, .post-grid, .service-hero-grid, .two-col {
     grid-template-columns: 1fr;
   }
